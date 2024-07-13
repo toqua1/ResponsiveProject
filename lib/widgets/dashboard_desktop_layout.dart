@@ -2,36 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:responsive_project/widgets/all_expenses_and_quick_invoice.dart';
 import 'package:responsive_project/widgets/custom_drawer.dart';
 import 'package:responsive_project/widgets/my_cards_and_transction_history.dart';
-
 import 'income_section.dart';
-
-// class DashboardDesktopLayout extends StatelessWidget {
-//   const DashboardDesktopLayout({super.key});
-//
-//   @override
-//   Widget build(BuildContext context) {
-//     return const Row(
-//       children: [
-//         Expanded(child:/*we make it here for all children of this
-//         parent to be also expanded and without repeating it , it consists
-//         also children in custom drawer and userListTile and all*/
-//         CustomDrawer()
-//         ),
-//         SizedBox(width: 32,),
-//         Expanded(
-//           flex: 3,
-//             child: AllExpensessAndQuickInvoiceSection()
-//         ),
-//         SizedBox(
-//           width: 24,
-//         ),
-//         Expanded(
-//             child:MyCardsAndTransctionHistorySection()
-//         ),
-//       ],
-//     );
-//   }
-// }
 
 class DashboardDesktopLayout extends StatelessWidget {
   const DashboardDesktopLayout({super.key});
